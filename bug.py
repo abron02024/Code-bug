@@ -1,5 +1,4 @@
-import os,random,sys,pyfiglet,requests,time
-from colorama import Fore,Back,Style
+import os,random,sys,pyfiglet,time
 r= "\033[31m"
 g = "\033[32m"
 y= "\033[36m"
@@ -230,8 +229,6 @@ for i in banner:
     sys.stdout.write(i)
     sys.stdout.flush()
     time.sleep(0.007)
-print (Fore.BLUE + "")
-
 print ("""\033[31m
   ________________________________________________                
  |>>>-----------------------------------------<<<|
@@ -254,7 +251,7 @@ mr_abron= input(f"   \033[35m[\033[32m<\033[31m$\033[32m>\033[35m]\033[33m-_-_-_
 
 print ()
 print ()
-print (Fore.GREEN +"")
+print (f"\033[33m")
 print("\r[~] alert > 5s",end="",flush=False) 
 time.sleep(1)
 print("\r[~] alert >> 4s",end="",flush=False)
@@ -388,8 +385,6 @@ aryn1 = (random.choice(aryn))
 aryn2 = (random.choice(aryn))
 aryn3 = (random.choice(aryn))
 
-print ("\033[31m")
-bn= (pyfiglet.figlet_format(f"COD SRVER",font='epic'))
 
 arynm = ["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"]
 
@@ -432,20 +427,18 @@ vir1=(f"\033[35m(/https://bit.ly/{ary1}{ate3}f{ary2}{ate1}{ate2}{ary3}{aryn1}k{a
 vir2=(f"\033[33m(/https://bit.ly/{ary1}{ate1}f{ary3}{ate2}{ate3}{ary3}{aryn2}k{ary1}*)")
 
 
-oh = (Fore.WHITE + f"oh 'AHM' if your account is not spam and you to hit the code correctly, it will filter 65% !")
+oh = (f"\033[34moh 'AHM' if your account is not spam and you to hit the code correctly, it will filter 65% !")
 
 port = (f"{b}no report")
 
-ping  = (Fore.WHITE + " '(127.0.0.1:8080{r430n})'")
+ping  = (f" '\033[31m(127.0.0.1:8080)'")
 
 y = (f"{b}tap (1) order code")
 
 z = (f"{b}tap (2) order")
 
 
-
-print (Fore.YELLOW +"")
-#if s __
+#if s
 # not upload file to github , download from reservoir my
 if mr_abron == "1":
          slow_print(f"""{xc}\n \n{xc1}\n \n{xc2}\n \n{cod1}\n \n{cod2}\n \n{cod3}\n \n{vir}\n \n{vir1}\n \n{vir2}\n \n """)
