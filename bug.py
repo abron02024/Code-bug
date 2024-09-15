@@ -1,5 +1,5 @@
 #love atena 
-import os,random,sys,pyfiglet,time,string
+import os,random,sys,pyfiglet,time
 r= "\033[31m"
 g = "\033[32m"
 y= "\033[36m"
